@@ -1,0 +1,840 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: auto;
+    width: 100%;
+    /* margin: 10px 0 0 80px; */
+    padding: 5px 10px 0 10px;
+}
+
+header {
+    height: 90vh;
+    width: 100%;
+    background-color: #fdf8ee;
+}
+
+header .navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+header .navBar i{
+    display: none;
+}
+
+header .navBar .logo p {
+    display: inline;
+    font-weight: 800;
+}
+
+header .navBar .logo img {
+    height: 30px;
+    width: 30px;
+}
+
+header .navBar ul {
+    display: flex;
+}
+
+header .navBar li {
+    list-style-type: none;
+}
+
+header .navBar li a {
+    text-decoration: none;
+    padding: 15px 20px 0 20px;
+    color: #1d1d1d;
+}
+
+header .rightSection {
+    display: flex;
+    align-items: center;
+}
+
+header button {
+    display: inline;
+    background-color: #4d2c5e;
+    color: #fff;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+header button:hover{
+    background-color: #3b1a4d;
+}
+
+header .userInfoAndPic {
+    height: 50vh;
+    width: 80%;
+    margin-left: 150px;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+header .userInfoAndPic .userInfo>h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+header .userInfoAndPic .userInfo h1>span {
+    color: #ff7426;
+}
+
+.userInfo .inputAndButton input {
+    height: 50px;
+    width: 200px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+}
+
+.userInfo .inputAndButton button {
+    height: 47px;
+    border: none;
+}
+
+header .userInfoAndPic .userPic>img {
+    height: 400px;
+}
+
+.middleSection {
+    height: 25vh;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    left: 120px;
+    top: 600px;
+    background-color: #4d2c5e;
+    display: flex;
+    justify-content: space-around;
+}
+
+.middleSection .firstbox {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+/* .middleSection .infoPic{
+    
+    
+} */
+
+.firstbox .infoPic>img {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #71567e;
+}
+
+.middleSection .infoText {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.trackCard {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.trackCard .header {
+    width: 100%;
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header>img {
+    height: 100px;
+}
+
+.header .title>h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.header .title>p {
+    font-size: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin-top: 50px;
+    height: 420px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+.card>img {
+    overflow: hidden;
+    padding: 2px;
+}
+
+.card .card-body .rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body span {
+    font-size: 15px;
+    color: #ff7426;
+}
+
+.card-body .icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card>button {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff7426;
+    padding: 5px 0;
+    font-size: 15px;
+    position: absolute;
+    left: 140px;
+    top: 400px;
+}
+
+.card>button:hover{
+    color: #fff;
+   background-color:  #ff5c0a;
+}
+
+.premiumExperience {
+    height: 60vh;
+    width: 100%;
+    background-color: #fdf8ee;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.premiumExperience>img {
+    height: 70vh;
+}
+
+.premiumExperience>h2 {
+    font-weight: 900;
+}
+
+.premiumExperience .info span {
+    color: #ff7426;
+}
+
+.info .info1 {
+    padding: 10px 0;
+}
+
+.info .info1,
+.info2 {
+    display: flex;
+    align-items: center;
+}
+
+.info1>img {
+    height: 65px;
+    width: 65px;
+    margin-right: 5px;
+}
+
+.info2>img {
+    height: 65px;
+    width: 65px;
+    margin-right: 5px;
+}
+
+.studentSayContainer {
+    height: 200vh;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.studentSayContainer .headingText {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.boxContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.studentSayContainer .item {
+    height: 190px;
+    width: 320px;
+    /* border: 1px solid; */
+    border: none;
+    background-color: #ffffff;
+}
+
+.item>p {
+    padding: 10px 0 10px 10px;
+}
+
+.item .studentInfo {
+    padding: 0 5px;
+}
+
+.studentInfo .studentPic>img {
+    padding-right: 5px;
+}
+
+
+/* .item .studentInfo .studentInfo{
+    height: 30px;
+    width: 30px;
+    border: 2px solid red;
+} */
+
+.item .studentInfo .studentPic img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.studentInfo {
+    display: flex;
+}
+
+.studentSayContainer .imgContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textAndIcons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textAndIcons>p {
+    color: #ff7426;
+}
+
+.card-container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-container2 .card .card-body .textAndIcons .icons>img {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+    border-radius: 50%;
+    overflow: none;
+}
+
+.subscribe {
+    height: 40vh;
+    width: 90%;
+    margin: 50px 0 50px 70px;
+    background-color: #502d5d;
+    color: #fff;
+}
+
+.subscribe .inputButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.inputButton .inputAndButton>input {
+    height: 46px;
+    width: 220px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 5px;
+}
+
+.inputButton .inputAndButton>button {
+    height: 50px;
+    width: 80px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff7426;
+}
+
+.inputButton .inputAndButton>button:hover{
+    color: #fff;
+    background-color:  #ff5c0a;
+}
+
+.pics {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 40vh;
+    width: 100%;
+    background-color: #fdf7ec;
+    padding-top: 30px;
+}
+
+footer .paraContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer .logo {
+    display: flex;
+}
+
+footer .logo>img {
+    height: 30px;
+    width: 30px;
+}
+
+footer .centerText {
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #container {
+        height: auto;
+        width: 1020px;
+    }
+
+    header {
+        height: 90vh;
+        width: 100%;
+    }
+
+    header .navBar i{
+        display: none;
+    }
+
+    header .userInfoAndPic .userInfo>h1 {
+        font-size: 30px;
+    }
+
+    header .userInfoAndPic .userInfo>p {
+        font-size: 12px;
+    }
+
+    .userInfoAndPic .userInfo .inputAndButton {
+        display: flex;
+        column-gap: 5px;
+    }
+
+   .userPic > img{
+        height: 30px;
+        width: 80%;
+    }
+
+    .middleSection{
+        position: absolute;
+        top: 490px;
+        left: 190px;
+        height: 30vh;
+        width: 80%;
+        z-index: 1;
+    }
+
+    .middleSection .firstbox .infoText > h4{
+        font-size: 20px;
+    }
+
+    .middleSection .firstbox .infoText > p{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .trackCard{
+        position: relative;
+        height: 80vh;
+        width: 100%;
+    }
+
+    .trackCard .header{
+        padding-top: 110px;
+    }
+
+    .trackCard .card-container > .card{
+        height: 30%;
+        width: 35%;
+        padding: 0 10px;
+    }
+
+    .trackCard .card-container .card > button{
+        position: absolute;
+        top: 330px;
+        left: 100px;
+    }
+
+    .trackCard .card-body .icons > p{
+        font-size: 10px;
+    }
+
+    .premiumExperience{
+        position: relative;
+        width: 100%;
+    }
+
+    .studentSayContainer{
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    .subscribe{
+        position: relative;
+        height: 32vh;
+        width: 90%;
+    }
+
+    .subscribe .inputButton{
+        padding-top: 20px;
+    }
+
+    .subscribe .inputButton > h1{
+        font-size: 50px;
+    }
+
+    .subscribe .inputButton > p{
+        font-size: 25px;
+    }
+
+    .subscribe .inputButton .inputAndButton{
+        padding: 0 5px;
+    }
+
+    .subscribe .inputButton .inputAndButton > input{
+        height: 50px;
+        width: 220px;
+        padding-left: 10px;
+        font-size: 20px;
+    }
+
+    .subscribe .inputButton .inputAndButton > button{
+        height: 54px;
+        width: 100px;
+        font-size: 20px;
+    }
+
+    footer{
+        height: 35vh;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    #container{
+        height: auto;
+        width: 767px;
+        padding-right: 70px;
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        position: relative;
+        height: 200vh;
+        width: 100%;
+    }
+
+    header .navBar .rightSection{
+        display: none;
+    }
+
+    header .navBar{
+        justify-content: space-between;
+        padding-top: 5px;
+    }
+
+    header .navBar .logo > img{
+        height: 100px;
+        width: 100px;
+    }
+
+    header .navBar .logo  p{
+        font-family: 100px;
+        font-size: 50px;
+    }
+
+    header .navBar i{
+        display: block;
+        font-size: 100px;
+    }
+
+      
+
+    header .userInfoAndPic{
+        flex-direction: column;
+        align-items: center;
+        padding-right: 180px;
+    }
+  
+
+    .userInfoAndPic .userInfo  h1{
+        font-size: 50px;
+    }
+
+    .userInfoAndPic .userInfo  span{
+        font-size: 50px;
+    }
+
+    .userInfoAndPic .userInfo  p{
+        font-size: 20px;
+    }
+
+    .userInfoAndPic .inputAndButton > input{
+        height: 50px;
+        width: 200px;
+        font-size: 15px;
+    }
+
+    .userInfoAndPic .inputAndButton > button{
+        height: 50px;
+        width: 100px;
+        font-size: 15px;
+        margin-left: 3px;
+    }
+
+    .middleSection{
+        position: absolute;
+        top: 160vh;
+        right: 100px;
+        height: 60vh;
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trackCard .card-container{
+        flex-direction: column;
+    }
+
+    .card-container .card{
+        height: 120vh;
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .card .card-body .rating p,span{
+        font-size: 20px;
+    }
+
+    .card .card-body > h5{
+        font-size: 30px;
+    }
+
+    .card .card-body .icons > p{
+        font-size: 30px;
+    }
+
+    .card > button{
+        height: 80px;
+        width: 220px;
+        font-size: 35px;
+        border-radius: 20px;
+        position: absolute;
+        left: 220px;
+        top: 730px;
+    }
+
+    .studentSayContainer{
+        display: flex;
+        flex-direction: column;
+        height: 550vh;
+    }
+
+    .boxContainer{
+        flex-direction: column;
+    }
+
+    .boxContainer .item{
+        height: auto;
+        width: 700px;
+        text-align: center;
+    }
+    .boxContainer .item > p{
+        font-size: 30px;
+    }
+
+    .boxContainer .item .studentInfo{
+        height: 10vh;
+        width: 700px;
+        justify-content: center;
+    }
+
+    .item .studentInfo .studentPic > img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .item .studentInfo .infoText > p{
+        font-size: 20px;
+    }
+
+    .card-container2{
+        flex-direction: column;
+    }
+
+    .card-container2 .card{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .card .card-body > h5{
+        font-size: 30px;
+    }
+
+    
+    .card .card-body > p{
+        font-size: 20px;
+    }
+
+    .card .card-body .textAndIcons > p{
+        font-size: 20px;
+    }
+
+    .icons > img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .subscribe{
+        position: relative;
+        right: 70px;
+        height: 200vh;
+        width: 100%;
+        margin-top: 1px;
+    }
+
+    .subscribe .inputButton > h1{
+        font-size: 40px;
+    }
+
+    .subscribe .inputButton > p{
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    .inputButton .inputAndButton > input{
+        height: 40px;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    .inputButton .inputAndButton > button{
+        height: 44px;
+        font-size: 20px;
+    }
+
+    footer{
+        margin-top: 70px;
+        /* position: relative;
+        top: 10px; */
+        height: 70vh;
+    }
+
+    footer .paraContainer .para .logo > img{
+        height: 50px;
+        width: 60px;
+    }
+
+    footer .paraContainer .para .logo > p{
+        font-size: 20px;
+    }
+
+    footer .paraContainer .para p{
+        font-size: 20px;
+    }
+
+    .para{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .para2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .para3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .para4{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .para5{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+  }
+
+  @media screen and (width: 1024px){
+    #container{
+        height: auto;
+        width: 100%;
+        margin: 0;
+       padding: 0;
+    }
+
+    header{
+        height: 80vh;
+        width: 100%;
+    }
+
+    .middleSection{
+        height: 22vh;
+        width: 80%;
+        position: absolute;
+        top: 450px;
+        right: 400px;
+        z-index: 1;
+    }
+
+    .trackCard{
+        position: relative;
+        padding-top: 50px;
+    }
+
+    .premiumExperience > img{
+        height: 40vh;
+    }
+
+    .studentSayContainer .subscribe{
+        height: 33vh;
+    }
+
+    footer{
+        height: 45vh;
+    }
+
+  }
