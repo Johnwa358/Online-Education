@@ -6,7 +6,6 @@
 #container {
     height: auto;
     width: 100%;
-    /* margin: 10px 0 0 80px; */
     padding: 5px 10px 0 10px;
 }
 
@@ -23,7 +22,7 @@ header .navBar {
     padding: 30px 0;
 }
 
-header .navBar i{
+header i{
     display: none;
 }
 
@@ -561,6 +560,10 @@ footer .centerText {
         display: none;
     }
 
+    .rightSection .open{
+        display: flex;
+    }
+
     header .navBar{
         justify-content: space-between;
         padding-top: 5px;
@@ -577,7 +580,7 @@ footer .centerText {
     }
 
     header .navBar i{
-        display: block;
+        display: flex;
         font-size: 100px;
     }
 
